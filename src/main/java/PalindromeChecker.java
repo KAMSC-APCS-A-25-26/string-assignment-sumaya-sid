@@ -13,15 +13,15 @@ public class PalindromeChecker {
 
         // TODO: Determine whether the lowercase string reads the same forwards and backwards.
         //       Tip: compare it to a reversed copy of itself.
-        StringBuilder sb = new StringBuilder(word2);
+        StringBuilder sb = new StringBuilder(word);
         String reverse = sb.reverse().toString();
 
         // TODO: Treat single-character inputs as palindromes (the above check will already handle this).
-        if (word2.equals(reverse) == true)
+        if (word.equals(reverse) == true)
         {
             System.out.println(word + " is a palindrome!");
         }
-        else if (word2.equals(reverse) == false)
+        else if (word.equals(reverse) == false)
         {
             System.out.println(word + " is NOT a palindrome.");
         }
