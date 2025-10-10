@@ -13,7 +13,7 @@ public class WordCensor {
         String newSentence2 = newSentence1.replaceAll("oops", "***");
         String newSentence3 = newSentence2.replaceAll("yikes", "***");
 
-        System.out.println(newSentence3);
+        System.out.println("Censored: " + newSentence3);
 
         // TODO: Print the result prefixed with: Censored:
         // NOTE: Tests require exactly three asterisks (no ****) for every replacement
